@@ -83,6 +83,9 @@
 					
 				if ($movie['name'] == "The Kings of Summer")
 					continue;
+					
+				if ($movie['name'] == "The Conjuring")
+					continue;
 				
 				if ($d >= $START_DATE && $d < $END_DATE && ($movie['theaters'] >= 600))
 				{
