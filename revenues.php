@@ -86,6 +86,12 @@
 					
 				if ($movie['name'] == "The Conjuring")
 					continue;
+					
+				if ($movie['name'] == "The Way, Way Back")
+					continue;
+
+				if ($movie['name'] == "Fruitvale Station")
+					continue;
 				
 				if ($d >= $START_DATE && $d < $END_DATE && ($movie['theaters'] >= 600))
 				{
