@@ -3,7 +3,7 @@
 	
 	// first get the percentages
 	$sql = connect();
-	$team = $sql->real_escape_string($_GET['team']);
+	$team = isset($_GET['team']) ? $sql->real_escape_string($_GET['team']) : "";
 	$result = $sql->query("CALL GetPercentagesTeam('$team')");
 
 	$percentages = array();
