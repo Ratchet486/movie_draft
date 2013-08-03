@@ -369,7 +369,7 @@ function popupDetails(url)
  	    });
 	</script>
     <div id="dialog-modal" title="More Information">
-	    <iframe id="iframeDialog" src="about:blank" frameborder="0" width="880" height="430"></iframe>
+	    <iframe id="iframeDialog" src="about:blank" frameborder="0" width="860" height="420"></iframe>
     </div>
 	<script type="text/javascript">
 
