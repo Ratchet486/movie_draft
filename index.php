@@ -384,6 +384,6 @@ function popupDetails(url)
   })();
 
 </script>
-  <p style="text-align:center;"><a href="https://github.com/snickroger/movie_draft" target="_blank"><img src="github.png" border=0 ></a></p>
+  <p style="text-align:center;"><a href="https://github.com/snickroger/movie_draft" target="_blank"><img src="img/github.png" border=0 ></a></p>
   </body>
 </html>
