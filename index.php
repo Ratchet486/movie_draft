@@ -346,11 +346,13 @@ function popupDetails(url)
 	if ($team == "Friends" || $team == "Work") {
 		echo "[ <a href=\"#\" onclick=\"return popupDetails('weekly.php?team=$team');\">Weekly Totals</a> ] ";
 		echo "[ <a href=\"#\" onclick=\"return popupDetails('weekly.php?rank&team=$team');\">Weekly Rankings</a> ] ";
+		echo "[ <a href=\"#\" onclick=\"return popupDetails('spread.php?team=$team');\">Weekly Spread</a> ] ";
 	}
 	else
 	{
 		echo "[ <a href=\"#\" onclick=\"return popupDetails('weekly.php');\">Weekly Totals</a> ] ";
 		echo "[ <a href=\"#\" onclick=\"return popupDetails('weekly.php?rank')\">Weekly Rankings</a> ] ";
+		echo "[ <a href=\"#\" onclick=\"return popupDetails('spread.php?');\">Weekly Spread</a> ] ";
 	}
 	?>
 </h3>
