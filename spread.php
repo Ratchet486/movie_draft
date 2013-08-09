@@ -128,6 +128,7 @@ $(document).ready(function() {
             title: {
                text: 'Revenue (USD)',
             },
+			max:100,
 			min: <?php echo isset($_GET['rank']) ? 1 : 0 ?>,
 			reversed: <?php echo isset($_GET['rank']) ? "true" : "false" ?>
          },
