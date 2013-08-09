@@ -53,7 +53,7 @@
 		foreach($score as $key => $scr)
 		{
 			
-			$score[$key] = (($scr - $min)/($spread)) * 100;
+			$score[$key] = (($scr - $min)/($spread * 1.0)) * 100;
 		}
 		
 		arsort($score);
@@ -126,7 +126,7 @@ $(document).ready(function() {
          },
          yAxis: {
             title: {
-               text: 'Revenue (USD)',
+               text: 'Spread %',
             },
 			max:100,
 			min: <?php echo isset($_GET['rank']) ? 1 : 0 ?>,
